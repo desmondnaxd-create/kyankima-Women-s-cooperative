@@ -1,0 +1,70 @@
+.Nav{
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    padding: 15px;
+    text-size-adjust: 12px;
+    text-align: justify;
+    gap: 20px;
+}
+
+.Nav a {
+    text-decoration: none;
+    font-size: 18px;
+    border: 12px solid transparent;
+   
+}
+
+.Nav a:hover {
+    border: 12px solid transparent;
+    border-bottom: 12px solid rgb(74, 230, 87);
+}
+
+.quick link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    background: red;
+}
+
+.mission {
+    border: 1px solid black;
+}
+div {
+    margin: 12px;
+    border: 1px solid black;
+    background: linear-gradient(rgb(235, 250, 151), rgb(235, 235, 108))
+}
+.FAQs p {
+    text-align: justify;
+
+}
+
+.FAQs {
+    border: 1px solid black;
+    background: linear-gradient(rgb(197, 113, 113),rgb(117, 117, 216));
+}
+
+body{
+    background: linear-gradient(light blue, rgb(122, 122, 145))
+}
+.products{
+    border: 1px solid black;
+    background: linear-gradient(rgb(203, 221, 138), rgb(208, 238, 152));
+}
+
+.FAQs p:hover {
+    background-color: rgb(142, 133, 161);
+    border-color: blue;
+}
+.mission{
+    background: rgb(148, 206, 143);
+}
+.quick {
+    background: rgb(148, 206, 143);
+}
+.jik{
+    background: rgb(153, 190, 84);
+}
